@@ -1,9 +1,6 @@
 export const paintCards = () => {
   const redCart = document.querySelectorAll('.item:nth-child(odd)');
   redCart.forEach((item) => item.style.backgroundColor = "red");
-  // for (let i = 0; i < cart.length; i++) {
-  //   cart[i].style.backgroundColor = "red";
-  // }
 };
 
 export const findElement = () => {
